@@ -3,7 +3,7 @@ Web_crawler bot spider
 
 # Multi-threaded website crawler written in Python
 This is a tool to gather all the hyperlinks of a webpage.
-This could be modified to do web analytics and webscraping.
+This could be modified for web analytics and webscraping.
 
 # main.py
 It contain the main multithreading functions like creating job queue and allocating jobs to individual threads or spider.
