@@ -22,7 +22,7 @@ def create_workers():
 		t = threading.Thread(target = work)
 		t.daemon  = True
 		t.start()
-
+#lets get high
 #do the job queue
 def work():
 	while True:
@@ -30,8 +30,8 @@ def work():
 		Spider.crawl_page(threading.current_thread().name,url)
 		queue.task_done()
 
-
-#Creating job - crawling each link
+#trying git for4 first time
+#Creating job - crawling each link3
 def create_jobs():
 	for link in file_to_set(QUEUE_FILE):
 		queue.put(link) 	#putting a link from queue.txt to thread queue for spider - workers
